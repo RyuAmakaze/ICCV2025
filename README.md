@@ -14,3 +14,7 @@ pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
 
 https://github.com/facebookresearch/segment-anything?tab=readme-ov-fileでダウンロードし，コードをサーバにUpload
+
+```
+pip install -e .
+```
