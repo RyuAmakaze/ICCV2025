@@ -7,7 +7,10 @@ Foundation model <br>
 
 # SAM setup 手順
 HW: Tensor
+
 ```
 conda create -n sam python=3.9
 pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
+
+https://github.com/facebookresearch/segment-anything?tab=readme-ov-fileでダウンロードし，コードをサーバにUpload
