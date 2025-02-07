@@ -13,8 +13,10 @@ conda create -n sam python=3.9
 pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
 
-https://github.com/facebookresearch/segment-anything?tab=readme-ov-fileでダウンロードし，コードをサーバにUpload
+[公式Git](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file)からダウンロードし，コードをサーバにUpload
 
 ```
 pip install -e .
 ```
+
+[モデルのリンク](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)からwgetでインストール
