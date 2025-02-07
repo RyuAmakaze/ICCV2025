@@ -10,7 +10,8 @@ HW: Tensor
 
 ```
 conda create -n sam python=3.9
-pip install opencv-python pycocotools matplotlib onnxruntime onnx
+conda activate sam
+pip install opencv-python pycocotools matplotlib onnxruntime onnx torch
 ```
 
 [公式Git](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file)からダウンロードし，コードをサーバにUpload
@@ -20,3 +21,7 @@ pip install -e .
 ```
 
 [モデルのリンク](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)からwgetでインストール
+
+```
+pip install  git+https://github.com/facebookresearch/segment-anything.git 
+```
