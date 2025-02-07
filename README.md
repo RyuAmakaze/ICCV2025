@@ -11,7 +11,7 @@ HW: Tensor
 ```
 conda create -n sam python=3.9
 conda activate sam
-pip install opencv-python pycocotools matplotlib onnxruntime onnx torch
+pip install opencv-python pycocotools matplotlib onnxruntime onnx torch torchvision torchaudio
 ```
 
 [公式Git](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file)からダウンロードし，コードをサーバにUpload
