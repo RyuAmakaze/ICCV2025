@@ -5,6 +5,9 @@ ICCV2025用の曼陀羅
 HistoSegNet <br>
 Foundation model <br>
 
+# SAMUS setup 手順
+https://github.com/xianlin7/SAMUS
+
 # SAM setup 手順
 HW: Tensor
 
